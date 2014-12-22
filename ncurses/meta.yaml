@@ -1,0 +1,16 @@
+package:
+  name: ncurses
+  version: "5.9_kbg"
+
+source:
+  fn: ncurses-5.9.tar.gz
+  url: https://ftp.gnu.org/pub/gnu/ncurses/ncurses-5.9.tar.gz
+  md5: 8cb9c412e5f2d96bc6f459aa8c6282a1
+
+build:
+  number: 0
+  detect_binary_files_with_prefix: true
+
+about:
+  home: https://www.gnu.org/software/ncurses/
+  license: MIT/X11
