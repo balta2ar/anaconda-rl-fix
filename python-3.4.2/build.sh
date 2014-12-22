@@ -11,3 +11,5 @@ set -e
 
 make
 make install
+
+ln -s python3 $PREFIX/bin/python
